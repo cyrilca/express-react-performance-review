@@ -1,0 +1,31 @@
+.calculator {
+  margin-top: 30px;
+}
+
+.calculator__label-block {
+  margin: 15px;
+}
+
+.calculator__form-item {
+  margin-bottom: 20px;
+}
+
+.exchanger__reset {
+  text-align: center;
+  font-size: 13px;
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+.currency {
+  margin: 15px 0 0 20px;
+}
+
+.currency__type {
+  font-size: 17px;
+  min-width: 50px;
+}
+
+.currency__type--bold {
+  font-weight: bold;
+}

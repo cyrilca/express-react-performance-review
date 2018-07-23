@@ -1,0 +1,15 @@
+.select {
+  border: 2px solid #000;
+  padding: 20px;
+  font-size: 14px;
+  outline: none;
+  box-sizing: border-box;
+  appearance: none;
+	line-height: normal;
+  position: relative;
+  border-radius: 0;
+}
+
+.select--wide {
+  width: 100%;
+}

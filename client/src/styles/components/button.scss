@@ -1,0 +1,55 @@
+.btn {
+  width: 100%;
+  background: $firm-blue;
+  color: #fff;
+  font-weight: bold;
+  padding: 20px;
+  font-size: 15px;
+  border: 0;
+  min-height: 64px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  &:hover {
+    background: $firm-blue-hover;
+  }
+}
+
+.btn:disabled {
+  background: $btn-disabled;
+}
+
+.btn--reset {
+  background: none;
+  border: 0;
+}
+
+.btn--active {
+  background: #0084ff;
+  color: #fff;
+  border: 0;
+  border-radius: 3px;
+  padding: 10px 15px;
+  cursor: pointer;
+}
+
+.btn--delete {
+  margin-left: 10px;
+  background: #e64040;
+  color: #fff;
+  border: 0;
+  border-radius: 3px;
+  padding: 10px 15px;
+  cursor: pointer;
+}
+
+.btn--new {
+  margin-left: 10px;
+  background: #002689;
+  color: #fff;
+  border: 0;
+  font-weight: bold;
+  font-size: 14px;
+  border-radius: 3px;
+  padding: 10px 15px;
+  cursor: pointer;
+}

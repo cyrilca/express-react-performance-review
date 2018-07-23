@@ -1,0 +1,130 @@
+@import "normalize.scss";
+@import "vars.scss";
+@import "./components/calculator.scss";
+@import "./components/button.scss";
+@import "./components/input.scss";
+@import "./components/select.scss";
+@import "./components/spinner.css";
+@import "./components/login.scss";
+
+body {
+  margin: 0;
+  padding: 0;
+  background: $background-wrapper;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: normal;
+  line-height: 1.2;
+  color: $font-color;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.wrapper {
+  width: 100%;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-right {
+  text-align: right;
+}
+
+header {
+  height: 50px;
+  width: 100%;
+  -webkit-box-shadow: 0px 3px 38px -5px rgba(0,0,0,0.10);
+  -moz-box-shadow: 0px 3px 38px -5px rgba(0,0,0,0.10);
+  box-shadow: 0px 3px 38px -5px rgba(0,0,0,0.10);
+}
+
+.header__logo--wrapper {
+  display: inline-block;
+  margin: 20px 0 0 20px;
+}
+
+.header__logo {
+  max-width: 80px;
+}
+
+.header__menu {
+  display: inline-block;
+  margin: 3px 0 0 30px;
+  position: relative;
+  top: 4px;
+  a {
+    color: #000;
+    text-decoration: none;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 14px;
+    position: relative;
+    top: -3px;
+    margin-right: 10px;
+  }
+}
+
+.header__signout {
+  float: right;
+  margin: 20px 20px 0 0;
+  font-size: 14px;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.content__wrapper {
+  max-width: 960px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.header__profile {
+  float: right;
+  margin: 20px 20px 0 0;
+}
+
+// Employees
+.employee__row {
+  display: flex;
+  border-bottom: 1px solid #efefef;
+  padding: 10px 0 10px 0;
+  justify-content: space-between;
+  a {
+    color: #000;
+  }
+}
+
+.employee__text {
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.employee__type {
+  margin-top: 10px;
+  font-size: 12px;
+}
+
+.employee__buttons {
+  float: right;
+}
+
+.clear {
+  clear: both;
+}
+
+.employee__datetime {
+  font-weight: 600;
+  font-size: 12px;
+  margin: 5px 0;
+}
+
+.employee__review-content {
+  margin-top: 10px;
+  font-size: 14px;
+}
+
+.performance__title {
+  float: left;
+}
