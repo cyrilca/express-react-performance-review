@@ -20,7 +20,7 @@ var jwtStrategy = new JwtStrategy(jwtOptions, async (jwt_payload, next) => {
 })
 
 module.exports = (app) => {
-  mongoose.connect('mongodb://localhost:27017/employee', { useNewUrlParser: true })
+  mongoose.connect(process.env.MONGO_URI, { useNewUrlParser: true })
   passport.use(jwtStrategy)
   app.use(passport.initialize())
   app.use(bodyParser.json())
