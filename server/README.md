@@ -36,7 +36,7 @@ $ mongod
 
 Run migrations to create sample data
 ```
-$ node ./migrations.js
+$ npm run migrations
 ```
 
 Rename .env.example to .env
